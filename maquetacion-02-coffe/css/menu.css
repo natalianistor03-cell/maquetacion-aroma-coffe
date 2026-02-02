@@ -1,0 +1,110 @@
+@font-face{
+	font-family: "applefont";
+	src: 
+		url("fonts/HomemadeApple-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'applefont', sans-serif;
+}
+
+body {
+    background: #faf7f2;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #8B4513;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* TÍTULO */
+.titulo {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    color: #8B4513;
+}
+
+.titulo p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* MENÚ */
+.menu-categorias {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h2 {
+    font-size: 28px;
+    color: #8B4513;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8B4513;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.item .precio {
+    font-weight: bold;
+    color: #8B4513;
+}
+
+/* FOOTER */
+footer {
+    background: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
